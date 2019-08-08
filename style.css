@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100|Roboto:100&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+   supported by Chrome and Opera */
+}
+
+.calc-btn {
+  background-color: #b3b3b3;
+  color: #333;
+  width: 25px;
+  height: 45px;
+  border: 1px solid #818181;
+  text-align: center;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: 100;
+  padding: 2px ;
+}
+
+.calc-btn:hover {
+  background-color: orange;
+}
+
+.row {
+  display: table;
+  table-layout: fixed;
+  width: 300px;
+}
+
+.column {
+  display: table-cell;
+}
+
+#calc-zero {
+  width: 56px;
+  border-radius: 0 0 0 7px;
+}
+
+#calc-clear {
+  width: 56px;
+}
+
+#calc-display-val {
+  text-align: right;
+  border-left: 1px solid #818181;
+  border-right: 1px solid #818181;
+  border-top: 1px solid #818181;
+  font-size: 48px;
+  background-color: #383838;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 12px;
+  border-radius: 7px 7px 0 0;
+  color: #fff;
+}
+
+.calc-btn-operator {
+  background-color: #ffa600;
+  color: #fff;
+}
+.calc-btn-operator:hover {
+ background-color: #fff;
+ color:#ffa600;
+}
+
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#calc-equals {
+  border-radius: 0 0 7px 0;
+}
+
+#calc-parent {
+  margin-left: calc(50% - 150px);
+}
